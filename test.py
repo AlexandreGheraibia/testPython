@@ -57,8 +57,6 @@ def max(l):
 def reverse(l):
     n=len(l)
     i=n-1
-    valMax=l[i]
-
     while i>=0:
         tmp=l[i]
         l.remove(tmp)
